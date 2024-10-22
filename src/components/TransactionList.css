@@ -1,0 +1,48 @@
+/* TransactionList.css */
+
+/* Container for the transaction list */
+.transaction-list-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Heading styles */
+h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* Light border for table rows */
+}
+
+th {
+  background-color: #007bff; /* Header background color */
+  color: white; /* Header text color */
+}
+
+tr:hover {
+  background-color: #e9f5ff; /* Light blue on hover */
+}
+
+/* Total and balance heading styles */
+h3 {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #007bff;
+  text-align: center;
+}

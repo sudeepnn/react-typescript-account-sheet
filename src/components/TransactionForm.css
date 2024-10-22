@@ -1,0 +1,61 @@
+/* TransactionForm.css */
+
+.transaction-form {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  gap: 15px; /* Space between elements */
+  max-width: 400px; /* Limit the width of the form */
+  margin: 0 auto; /* Center the form */
+  padding: 20px; /* Padding inside the form */
+  border: 1px solid #ccc; /* Border for the form */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column; /* Stack label and input vertically */
+}
+
+.label {
+  margin-bottom: 5px; /* Space below the label */
+  font-weight: bold; /* Bold labels */
+}
+
+.form-input {
+  padding: 10px; /* Padding inside inputs */
+  border: 1px solid #ccc; /* Border for inputs */
+  border-radius: 4px; /* Rounded corners for inputs */
+  width: 100%; /* Full width */
+  max-width: 300px; /* Optional: limit max width */
+}
+.form-select {
+  padding: 10px; /* Padding inside inputs */
+  border: 1px solid #ccc; /* Border for inputs */
+  border-radius: 4px; /* Rounded corners for inputs */
+  width: 100%; /* Full width */
+  max-width: 300px; /* Optional: limit max width */
+}
+
+.submit-button {
+  padding: 10px; /* Padding inside the button */
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners for button */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.submit-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+@media (max-width: 400px) {
+  .transaction-form {
+    width: 95%; /* Adjust width for small screens */
+  }
+
+  .form-input {
+    font-size: 14px; /* Smaller font size on small screens */
+  }
+}
